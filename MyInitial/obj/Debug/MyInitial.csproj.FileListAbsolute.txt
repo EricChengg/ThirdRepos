@@ -74,3 +74,6 @@ D:\MyTafe\2107_S2\5TSD\Resources\Session03\StudentFiles\MyInitial\obj\Debug\MyNa
 D:\MyTafe\2107_S2\5TSD\Resources\Session03\StudentFiles\MyInitial\obj\Debug\MyInitial.csproj.GenerateResource.Cache
 D:\MyTafe\2107_S2\5TSD\Resources\Session03\StudentFiles\MyInitial\obj\Debug\MyNameSpace.exe
 D:\MyTafe\2107_S2\5TSD\Resources\Session03\StudentFiles\MyInitial\obj\Debug\MyNameSpace.pdb
+C:\ThirdRepos\MyInitial\bin\Debug\MyNameSpace.exe.config
+C:\ThirdRepos\MyInitial\obj\Debug\MyNameSpace.exe
+C:\ThirdRepos\MyInitial\obj\Debug\MyNameSpace.pdb
