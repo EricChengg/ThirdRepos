@@ -9,3 +9,4 @@ C:\ThirdRepos\MyInitial\obj\Debug\MyNameSpace.pdb
 C:\ThirdRepos\MyInitial\bin\Debug\MyNameSpace.exe.config
 C:\ThirdRepos\MyInitial\bin\Debug\MyNameSpace.exe
 C:\ThirdRepos\MyInitial\bin\Debug\MyNameSpace.pdb
+C:\ThirdRepos\MyInitial\obj\Debug\Ticketing.TicketsForm.resources
