@@ -54,7 +54,7 @@
             // txtQuantity
             // 
             this.txtQuantity.Location = new System.Drawing.Point(222, 92);
-            this.txtQuantity.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtQuantity.Margin = new System.Windows.Forms.Padding(6);
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.Size = new System.Drawing.Size(178, 31);
             this.txtQuantity.TabIndex = 1;
@@ -82,7 +82,7 @@
             // 
             this.chkDiscount.AutoSize = true;
             this.chkDiscount.Location = new System.Drawing.Point(222, 183);
-            this.chkDiscount.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.chkDiscount.Margin = new System.Windows.Forms.Padding(6);
             this.chkDiscount.Name = "chkDiscount";
             this.chkDiscount.Size = new System.Drawing.Size(198, 29);
             this.chkDiscount.TabIndex = 5;
@@ -93,20 +93,19 @@
             // 
             this.radBalcony.AutoSize = true;
             this.radBalcony.Location = new System.Drawing.Point(52, 33);
-            this.radBalcony.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.radBalcony.Margin = new System.Windows.Forms.Padding(6);
             this.radBalcony.Name = "radBalcony";
             this.radBalcony.Size = new System.Drawing.Size(120, 29);
             this.radBalcony.TabIndex = 6;
             this.radBalcony.Text = "Balcony";
             this.radBalcony.UseVisualStyleBackColor = true;
-         //   this.radBalcony.CheckedChanged += new System.EventHandler(this.radBalcony_CheckedChanged);
             // 
             // radGeneral
             // 
             this.radGeneral.AutoSize = true;
             this.radGeneral.Checked = true;
             this.radGeneral.Location = new System.Drawing.Point(52, 77);
-            this.radGeneral.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.radGeneral.Margin = new System.Windows.Forms.Padding(6);
             this.radGeneral.Name = "radGeneral";
             this.radGeneral.Size = new System.Drawing.Size(119, 29);
             this.radGeneral.TabIndex = 7;
@@ -118,7 +117,7 @@
             // 
             this.radBox.AutoSize = true;
             this.radBox.Location = new System.Drawing.Point(52, 121);
-            this.radBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.radBox.Margin = new System.Windows.Forms.Padding(6);
             this.radBox.Name = "radBox";
             this.radBox.Size = new System.Drawing.Size(141, 29);
             this.radBox.TabIndex = 8;
@@ -131,9 +130,9 @@
             this.grpSection.Controls.Add(this.radGeneral);
             this.grpSection.Controls.Add(this.radBalcony);
             this.grpSection.Location = new System.Drawing.Point(104, 271);
-            this.grpSection.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.grpSection.Margin = new System.Windows.Forms.Padding(6);
             this.grpSection.Name = "grpSection";
-            this.grpSection.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.grpSection.Padding = new System.Windows.Forms.Padding(6);
             this.grpSection.Size = new System.Drawing.Size(278, 213);
             this.grpSection.TabIndex = 9;
             this.grpSection.TabStop = false;
@@ -142,7 +141,7 @@
             // cmdCalculate
             // 
             this.cmdCalculate.Location = new System.Drawing.Point(588, 515);
-            this.cmdCalculate.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cmdCalculate.Margin = new System.Windows.Forms.Padding(6);
             this.cmdCalculate.Name = "cmdCalculate";
             this.cmdCalculate.Size = new System.Drawing.Size(216, 67);
             this.cmdCalculate.TabIndex = 10;
@@ -162,7 +161,7 @@
             this.Controls.Add(this.lblAmountDue);
             this.Controls.Add(this.txtQuantity);
             this.Controls.Add(this.lblQuantity);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "TicketsForm";
             this.Text = "Theater Ticket Purchase";
             this.Load += new System.EventHandler(this.TicketsForm_Load);

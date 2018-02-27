@@ -46,7 +46,6 @@ namespace MyNameSpace
         private void okButton_Click(object sender, EventArgs e)
         {
             // Close the summary form.
-
             this.Close();
         }
 
