@@ -28,6 +28,7 @@ namespace Ticketing
 
         private void cmdCalculate_Click(object sender, EventArgs e)
         {
+            mDiscount = false;
             mQuantity = int.Parse(txtQuantity.Text);
 
             if (chkDiscount.Checked)
@@ -44,6 +45,19 @@ namespace Ticketing
 
             mTicketPrice.calculatePrice();
             lblAmount.Text = System.Convert.ToString(mTicketPrice.AmountDue);
+            return;
         }
-     }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // TicketsForm
+            // 
+            this.ClientSize = new System.Drawing.Size(381, 368);
+            this.Name = "TicketsForm";
+            this.ResumeLayout(false);
+
+        }
+    }
 }
